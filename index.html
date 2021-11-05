@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail validator</title>
+</head>
+<body style=" border-radius: 5%;padding: 10px; margin: 10px; border-style:solid; border-width: 2px; border-color: rgb(82, 82, 82); background-color: rgb(241, 241, 241);">
+
+    <h2>Mail validator </h2>
+
+
+<section style="background-color: white; ;padding: 10px; margin: 20px;width: 300px;"> 
+    
+<div id="ok">
+    
+<center>
+<input type="text" id="email" placeholder="Enter Mail ID" style=" padding:10px; text-align: center; width: 200px; ">
+<br>
+<br>
+
+<button  type="submit" id="bt1" style="padding: 10px;">validate</button> </center>
+
+
+</div>
+<div id="mydiv">
+
+    <center>
+
+<h3>Result as follows:</h3>
+<table>
+    <tr><td><p id="emailid"><b> </b></p></td></tr>
+<tr>
+    <td>
+    <p><b>Deliverability :</b></p></td>
+    <td> <p id="d"></p></td>
+</tr>
+<tr>
+    <td><p><b>Is free :</b></p></td>
+    <td><p id="free"></p></td>
+</tr>
+<tr>
+    <td> <p><b>Disposable Email :</b></p></td>
+    <td><p id="de"></p></td>
+</tr><tr>
+    <td> <p><b>is_smtp_valid :</b></p></td>
+    <td><p id="smtp"></p></td>
+</tr>
+
+</table>
+</center>
+</div>
+
+</section>
+
+
+<script src="java.js">
+</script>
+
+</body>
+</html>
